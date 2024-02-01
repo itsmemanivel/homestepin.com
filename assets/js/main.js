@@ -5,9 +5,9 @@ $(function() {
     
     //===== Prealoder
     
-    $(window).on('load', function(event) {
-        $('.preloader').delay(500).fadeOut(500);
-    });
+    // $(window).on('load', function(event) {
+    //     $('.preloader').delay(500).fadeOut(500);
+    // });
     
     
     //===== Mobile Menu 

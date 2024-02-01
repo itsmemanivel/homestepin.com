@@ -462,7 +462,7 @@ p {
         margin-left: 0;
         padding: 40px 15px 50px; } }
     .single-slider .slider-product-content .slider-title {
-      font-size: 92px;
+      font-size: 80px;
       z-index: 1; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
         .single-slider .slider-product-content .slider-title {
@@ -472,10 +472,10 @@ p {
           font-size: 48px; } }
       @media (max-width: 767px) {
         .single-slider .slider-product-content .slider-title {
-          font-size: 42px; } }
+          font-size: 30px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
         .single-slider .slider-product-content .slider-title {
-          font-size: 52px; } }
+          font-size: 40px; } }
       .single-slider .slider-product-content .slider-title span {
         position: relative; }
         .single-slider .slider-product-content .slider-title span::before {
