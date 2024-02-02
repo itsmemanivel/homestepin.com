@@ -1603,6 +1603,79 @@ p.form-message.error {
 /*# sourceMappingURL=style.css.map */
 
 
+/* custom css */
+
 .container-fluid {
   padding: 1% !important;
+}
+
+.single-service {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff; /* Assuming a white background */
+  border-radius: 10px; /* Rounded corners for the card */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* A subtle shadow for depth */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.service-image img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-top-left-radius: 10px; /* Rounded corners for the top of the image */
+  border-top-right-radius: 10px;
+}
+
+.service-title {
+  color: #333;
+  font-size: 22px; /* Larger font size for the title */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  color: #666;
+  font-size: 16px; /* Larger font size for better readability */
+  margin-bottom: 20px;
+}
+
+.service-price {
+  color: #28a745;
+  font-size: 20px; /* Adjust size as needed */
+  font-weight: bold;
+  margin-bottom: 25px; /* More space above the button */
+}
+
+.service-cta button {
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  padding: 15px 30px; /* Larger padding for a bigger button */
+  text-align: center;
+  font-size: 16px;
+  width: 80%; /* Set width to fit the card */
+  margin: 0 auto; /* Center the button inside the card */
+  display: block; /* Make the button a block element */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.service-cta button:hover {
+  background-color: #218838; /* Darker shade on hover */
+}
+
+/* Hover effect for the card */
+.single-service:hover {
+  transform: translateY(-5px); /* Slightly raise the card on hover */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* Responsive adjustments might be needed for different screen sizes */
+@media (max-width: 768px) {
+  .service-cta button {
+    padding: 10px 20px;
+    width: 90%; /* Full width on smaller screens */
+  }
 }
